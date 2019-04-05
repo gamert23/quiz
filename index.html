@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title> CJ/WORX Quiz </title>
+        <title> Convert to Bootstrap4 </title>
 
         <script src="./js/jquery.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
@@ -22,10 +22,10 @@
         
         <header id="home" class="position-relative">
             <img src="./img/header_img.jpg" class="img-fluid">
-            <div class="centered mt-3">
-                <h1>
-                    <span class="bg-black px-3 py-2 op-75 text-white"> <b> BR </b> </span>&nbsp;
-                    <span class="text-light d-none d-md-inline d-lg-inline"> Architects </span>
+            <div class="text-center centered mt-3 letter-spacing-4">
+                <h1 class="my-2 lh-15">
+                    <span class="bg-black px-3 py-2 op-75 text-white text-center"><b>BR</b></span>
+                    <span class="text-light d-none d-sm-inline"> Architects </span>
                 </h1>
             </div>
         </header>
@@ -195,12 +195,16 @@
 </script>
 
 <style>
-    body {
-        font-family: Segoe UI,Arial,sans-serif
+    html, body {
+        font-family: Segoe UI,Arial,sans-serif;
     }
 
     a:hover {
         background-color: #d0d0d0;
+    }
+
+    .lh-15 {
+        line-height: 1.5;
     }
 
     .bg-black {
